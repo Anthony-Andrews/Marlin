@@ -102,9 +102,7 @@
  Marlin\src\gcode\motion\../../module/motion.h \
  Marlin\src\gcode\motion\../../module/planner.h \
  Marlin\src\gcode\motion\../../module/../MarlinCore.h \
- Marlin\src\gcode\motion\../../module/../gcode/queue.h \
- Marlin\src\gcode\motion\../../feature/bedlevel/bedlevel.h \
- Marlin\src\gcode\motion\../../feature/bedlevel/mbl/mesh_bed_leveling.h
+ Marlin\src\gcode\motion\../../module/../gcode/queue.h
 
 Marlin\src\gcode\motion\../../inc/MarlinConfig.h:
 
@@ -313,7 +311,3 @@ Marlin\src\gcode\motion\../../module/planner.h:
 Marlin\src\gcode\motion\../../module/../MarlinCore.h:
 
 Marlin\src\gcode\motion\../../module/../gcode/queue.h:
-
-Marlin\src\gcode\motion\../../feature/bedlevel/bedlevel.h:
-
-Marlin\src\gcode\motion\../../feature/bedlevel/mbl/mesh_bed_leveling.h:

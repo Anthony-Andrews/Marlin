@@ -153,7 +153,10 @@
  Marlin\src\module\../libs/vector_3.h Marlin\src\module\../gcode/gcode.h \
  Marlin\src\module\../gcode/parser.h Marlin\src\module\probe.h \
  Marlin\src\module\../feature/bedlevel/bedlevel.h \
- Marlin\src\module\../feature/bedlevel/mbl/mesh_bed_leveling.h \
+ Marlin\src\module\../feature/bedlevel/abl/abl.h \
+ Marlin\src\module\servo.h Marlin\src\module\../HAL/shared/servo.h \
+ Marlin\src\module\../HAL/shared/../STM32F1/Servo.h \
+ Marlin\src\module\../feature/bltouch.h \
  Marlin\src\module\../feature/fwretract.h \
  Marlin\src\module\../feature/controllerfan.h \
  Marlin\src\module\../core/debug_out.h
@@ -476,7 +479,15 @@ Marlin\src\module\probe.h:
 
 Marlin\src\module\../feature/bedlevel/bedlevel.h:
 
-Marlin\src\module\../feature/bedlevel/mbl/mesh_bed_leveling.h:
+Marlin\src\module\../feature/bedlevel/abl/abl.h:
+
+Marlin\src\module\servo.h:
+
+Marlin\src\module\../HAL/shared/servo.h:
+
+Marlin\src\module\../HAL/shared/../STM32F1/Servo.h:
+
+Marlin\src\module\../feature/bltouch.h:
 
 Marlin\src\module\../feature/fwretract.h:
 

@@ -149,7 +149,7 @@
  Marlin\src\module\thermistor/thermistor_1.h \
  Marlin\src\module\../gcode/parser.h \
  Marlin\src\module\../feature/bedlevel/bedlevel.h \
- Marlin\src\module\../feature/bedlevel/mbl/mesh_bed_leveling.h
+ Marlin\src\module\../feature/bedlevel/abl/abl.h
 
 Marlin\src\module\planner.h:
 
@@ -455,4 +455,4 @@ Marlin\src\module\../gcode/parser.h:
 
 Marlin\src\module\../feature/bedlevel/bedlevel.h:
 
-Marlin\src\module\../feature/bedlevel/mbl/mesh_bed_leveling.h:
+Marlin\src\module\../feature/bedlevel/abl/abl.h:

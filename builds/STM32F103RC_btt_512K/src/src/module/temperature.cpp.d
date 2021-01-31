@@ -122,7 +122,10 @@
  .pio\libdeps\STM32F103RC_btt_512K\U8glib-HAL\src/U8glib.h \
  C:\Users\antho\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/Print.h \
  .pio\libdeps\STM32F103RC_btt_512K\U8glib-HAL\src/clib/u8g.h \
- Marlin\src\module\../feature/babystep.h \
+ Marlin\src\module\../feature/babystep.h Marlin\src\module\./servo.h \
+ Marlin\src\module\./../HAL/shared/servo.h \
+ Marlin\src\module\./../HAL/shared/../STM32F1/Servo.h \
+ Marlin\src\module\./../feature/bltouch.h \
  Marlin\src\module\../gcode/gcode.h Marlin\src\module\../gcode/parser.h
 
 Marlin\src\module\temperature.h:
@@ -382,6 +385,14 @@ C:\Users\antho\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores
 .pio\libdeps\STM32F103RC_btt_512K\U8glib-HAL\src/clib/u8g.h:
 
 Marlin\src\module\../feature/babystep.h:
+
+Marlin\src\module\./servo.h:
+
+Marlin\src\module\./../HAL/shared/servo.h:
+
+Marlin\src\module\./../HAL/shared/../STM32F1/Servo.h:
+
+Marlin\src\module\./../feature/bltouch.h:
 
 Marlin\src\module\../gcode/gcode.h:
 

@@ -148,8 +148,10 @@
  Marlin\src\module\thermistor/thermistors.h \
  Marlin\src\module\thermistor/thermistor_1.h \
  Marlin\src\module\../gcode/gcode.h Marlin\src\module\../gcode/parser.h \
+ Marlin\src\module\probe.h \
  Marlin\src\module\../feature/bedlevel/bedlevel.h \
- Marlin\src\module\../feature/bedlevel/mbl/mesh_bed_leveling.h \
+ Marlin\src\module\../feature/bedlevel/abl/abl.h \
+ Marlin\src\module\../feature/bltouch.h \
  Marlin\src\module\../core/debug_out.h
 
 Marlin\src\module\motion.h:
@@ -458,8 +460,12 @@ Marlin\src\module\../gcode/gcode.h:
 
 Marlin\src\module\../gcode/parser.h:
 
+Marlin\src\module\probe.h:
+
 Marlin\src\module\../feature/bedlevel/bedlevel.h:
 
-Marlin\src\module\../feature/bedlevel/mbl/mesh_bed_leveling.h:
+Marlin\src\module\../feature/bedlevel/abl/abl.h:
+
+Marlin\src\module\../feature/bltouch.h:
 
 Marlin\src\module\../core/debug_out.h:

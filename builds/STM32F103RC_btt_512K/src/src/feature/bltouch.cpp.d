@@ -1,5 +1,5 @@
-.pio\build\STM32F103RC_btt_512K\src\src\feature\powerloss.cpp.o: \
- Marlin\src\feature\powerloss.cpp \
+.pio\build\STM32F103RC_btt_512K\src\src\feature\bltouch.cpp.o: \
+ Marlin\src\feature\bltouch.cpp Marlin\src\feature\../inc/MarlinConfig.h \
  Marlin\src\feature\../inc/MarlinConfigPre.h \
  Marlin\src\feature\../inc/../HAL/platforms.h \
  Marlin\src\feature\../inc/../core/boards.h \
@@ -12,11 +12,9 @@
  Marlin\src\feature\../inc/../../Configuration_adv.h \
  Marlin\src\feature\../inc/Conditionals_adv.h \
  Marlin\src\feature\../inc/../HAL/STM32F1/inc/Conditionals_adv.h \
- Marlin\src\feature\powerloss.h Marlin\src\feature\../sd/cardreader.h \
- Marlin\src\feature\../sd/../inc/MarlinConfig.h \
- Marlin\src\feature\../sd/../inc/../HAL/HAL.h \
- Marlin\src\feature\../sd/../inc/../HAL/./STM32F1/HAL.h \
- Marlin\src\feature\../sd/../inc/../HAL/./STM32F1/../shared/Marduino.h \
+ Marlin\src\feature\../inc/../HAL/HAL.h \
+ Marlin\src\feature\../inc/../HAL/./STM32F1/HAL.h \
+ Marlin\src\feature\../inc/../HAL/./STM32F1/../shared/Marduino.h \
  C:\Users\antho\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/Arduino.h \
  C:\Users\antho\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/wirish.h \
  C:\Users\antho\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/WString.h \
@@ -68,64 +66,43 @@
  C:\Users\antho\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/tone.h \
  C:\Users\antho\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/Arduino.h \
  C:\Users\antho\.platformio\packages\framework-arduinoststm32-maple\STM32F1\variants\generic_stm32f103r/variant.h \
- Marlin\src\feature\../sd/../inc/../HAL/./STM32F1/../shared/progmem.h \
- Marlin\src\feature\../sd/../inc/../HAL/./STM32F1/../shared/math_32bit.h \
- Marlin\src\feature\../sd/../inc/../HAL/./STM32F1/../shared/HAL_SPI.h \
- Marlin\src\feature\../sd/../inc/../HAL/./STM32F1/fastio.h \
- Marlin\src\feature\../sd/../inc/../HAL/./STM32F1/watchdog.h \
+ Marlin\src\feature\../inc/../HAL/./STM32F1/../shared/progmem.h \
+ Marlin\src\feature\../inc/../HAL/./STM32F1/../shared/math_32bit.h \
+ Marlin\src\feature\../inc/../HAL/./STM32F1/../shared/HAL_SPI.h \
+ Marlin\src\feature\../inc/../HAL/./STM32F1/fastio.h \
+ Marlin\src\feature\../inc/../HAL/./STM32F1/watchdog.h \
  C:\Users\antho\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/iwdg.h \
  C:\Users\antho\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/util/atomic.h \
- Marlin\src\feature\../sd/../inc/../HAL/./STM32F1/MarlinSerial.h \
+ Marlin\src\feature\../inc/../HAL/./STM32F1/MarlinSerial.h \
  C:\Users\antho\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/usart.h \
  C:\Users\antho\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/ring_buffer.h \
  C:\Users\antho\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple/stm32f1/include/series/usart.h \
- c:\users\antho\documents\github\marlin\marlin\src\feature\e_parser.h \
- Marlin\src\feature\../sd/../inc/../pins/pins.h \
- Marlin\src\feature\../sd/../inc/../pins/stm32f1/pins_BTT_SKR_MINI_E3_V2_0.h \
- Marlin\src\feature\../sd/../inc/../pins/stm32f1/pins_BTT_SKR_MINI_E3_common.h \
- Marlin\src\feature\../sd/../inc/../pins/pins_postprocess.h \
- Marlin\src\feature\../sd/../inc/../HAL/STM32F1/timers.h \
- Marlin\src\feature\../sd/../inc/../HAL/STM32F1/spi_pins.h \
- Marlin\src\feature\../sd/../inc/Conditionals_post.h \
- Marlin\src\feature\../sd/../inc/../HAL/STM32F1/inc/Conditionals_post.h \
- Marlin\src\feature\../sd/../inc/../core/types.h \
- Marlin\src\feature\../sd/../inc/SanityCheck.h \
- Marlin\src\feature\../sd/../inc/../HAL/STM32F1/inc/SanityCheck.h \
- Marlin\src\feature\../sd/../inc/../core/language.h \
- Marlin\src\feature\../sd/../inc/../core/multi_language.h \
- Marlin\src\feature\../sd/../inc/../core/../lcd/language/language_en.h \
- Marlin\src\feature\../sd/../inc/../core/utility.h \
- Marlin\src\feature\../sd/../inc/../core/../core/millis_t.h \
- Marlin\src\feature\../sd/../inc/../core/serial.h \
- Marlin\src\feature\../sd/SdFile.h Marlin\src\feature\../sd/SdBaseFile.h \
- Marlin\src\feature\../sd/SdFatConfig.h \
- Marlin\src\feature\../sd/SdVolume.h Marlin\src\feature\../sd/Sd2Card.h \
- Marlin\src\feature\../sd/SdInfo.h \
- Marlin\src\feature\../sd/SdFatStructs.h \
- Marlin\src\feature\../gcode/gcode.h Marlin\src\feature\../gcode/parser.h \
- Marlin\src\feature\../lcd/marlinui.h \
- Marlin\src\feature\../lcd/../module/motion.h \
- Marlin\src\feature\../lcd/buttons.h \
- Marlin\src\feature\../lcd/../libs/buzzer.h \
- Marlin\src\feature\../lcd/../libs/circularqueue.h \
- Marlin\src\feature\../lcd/../module/printcounter.h \
- Marlin\src\feature\../lcd/../module/../libs/stopwatch.h \
- Marlin\src\feature\../lcd/../module/../libs/duration_t.h \
- Marlin\src\feature\../lcd/../MarlinCore.h \
- Marlin\src\feature\../lcd/../feature/pause.h \
- Marlin\src\feature\../lcd/../feature/../libs/nozzle.h \
- Marlin\src\feature\../lcd/lcdprint.h \
- Marlin\src\feature\../lcd/fontutils.h \
- Marlin\src\feature\../lcd/dogm/u8g_fontutf8.h \
- .pio\libdeps\STM32F103RC_btt_512K\U8glib-HAL\src/U8glib.h \
- C:\Users\antho\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/Print.h \
- .pio\libdeps\STM32F103RC_btt_512K\U8glib-HAL\src/clib/u8g.h \
- Marlin\src\feature\../gcode/queue.h \
- Marlin\src\feature\../module/planner.h \
- Marlin\src\feature\../module/temperature.h \
- Marlin\src\feature\../module/thermistor/thermistors.h \
- Marlin\src\feature\../module/thermistor/thermistor_1.h \
+ Marlin\src\feature\../inc/../HAL/./STM32F1/../../feature/e_parser.h \
+ Marlin\src\feature\../inc/../pins/pins.h \
+ Marlin\src\feature\../inc/../pins/stm32f1/pins_BTT_SKR_MINI_E3_V2_0.h \
+ Marlin\src\feature\../inc/../pins/stm32f1/pins_BTT_SKR_MINI_E3_common.h \
+ Marlin\src\feature\../inc/../pins/pins_postprocess.h \
+ Marlin\src\feature\../inc/../HAL/STM32F1/timers.h \
+ Marlin\src\feature\../inc/../HAL/STM32F1/spi_pins.h \
+ Marlin\src\feature\../inc/Conditionals_post.h \
+ Marlin\src\feature\../inc/../HAL/STM32F1/inc/Conditionals_post.h \
+ Marlin\src\feature\../inc/../core/types.h \
+ Marlin\src\feature\../inc/SanityCheck.h \
+ Marlin\src\feature\../inc/../HAL/STM32F1/inc/SanityCheck.h \
+ Marlin\src\feature\../inc/../core/language.h \
+ Marlin\src\feature\../inc/../core/multi_language.h \
+ Marlin\src\feature\../inc/../core/../lcd/language/language_en.h \
+ Marlin\src\feature\../inc/../core/utility.h \
+ Marlin\src\feature\../inc/../core/../core/millis_t.h \
+ Marlin\src\feature\../inc/../core/serial.h Marlin\src\feature\bltouch.h \
+ Marlin\src\feature\../module/servo.h \
+ Marlin\src\feature\../module/../HAL/shared/servo.h \
+ Marlin\src\feature\../module/../HAL/shared/../STM32F1/Servo.h \
+ Marlin\src\feature\../module/probe.h \
+ Marlin\src\feature\../module/motion.h \
  Marlin\src\feature\../core/debug_out.h
+
+Marlin\src\feature\../inc/MarlinConfig.h:
 
 Marlin\src\feature\../inc/MarlinConfigPre.h:
 
@@ -151,17 +128,11 @@ Marlin\src\feature\../inc/Conditionals_adv.h:
 
 Marlin\src\feature\../inc/../HAL/STM32F1/inc/Conditionals_adv.h:
 
-Marlin\src\feature\powerloss.h:
+Marlin\src\feature\../inc/../HAL/HAL.h:
 
-Marlin\src\feature\../sd/cardreader.h:
+Marlin\src\feature\../inc/../HAL/./STM32F1/HAL.h:
 
-Marlin\src\feature\../sd/../inc/MarlinConfig.h:
-
-Marlin\src\feature\../sd/../inc/../HAL/HAL.h:
-
-Marlin\src\feature\../sd/../inc/../HAL/./STM32F1/HAL.h:
-
-Marlin\src\feature\../sd/../inc/../HAL/./STM32F1/../shared/Marduino.h:
+Marlin\src\feature\../inc/../HAL/./STM32F1/../shared/Marduino.h:
 
 C:\Users\antho\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/Arduino.h:
 
@@ -265,21 +236,21 @@ C:\Users\antho\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores
 
 C:\Users\antho\.platformio\packages\framework-arduinoststm32-maple\STM32F1\variants\generic_stm32f103r/variant.h:
 
-Marlin\src\feature\../sd/../inc/../HAL/./STM32F1/../shared/progmem.h:
+Marlin\src\feature\../inc/../HAL/./STM32F1/../shared/progmem.h:
 
-Marlin\src\feature\../sd/../inc/../HAL/./STM32F1/../shared/math_32bit.h:
+Marlin\src\feature\../inc/../HAL/./STM32F1/../shared/math_32bit.h:
 
-Marlin\src\feature\../sd/../inc/../HAL/./STM32F1/../shared/HAL_SPI.h:
+Marlin\src\feature\../inc/../HAL/./STM32F1/../shared/HAL_SPI.h:
 
-Marlin\src\feature\../sd/../inc/../HAL/./STM32F1/fastio.h:
+Marlin\src\feature\../inc/../HAL/./STM32F1/fastio.h:
 
-Marlin\src\feature\../sd/../inc/../HAL/./STM32F1/watchdog.h:
+Marlin\src\feature\../inc/../HAL/./STM32F1/watchdog.h:
 
 C:\Users\antho\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/iwdg.h:
 
 C:\Users\antho\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/util/atomic.h:
 
-Marlin\src\feature\../sd/../inc/../HAL/./STM32F1/MarlinSerial.h:
+Marlin\src\feature\../inc/../HAL/./STM32F1/MarlinSerial.h:
 
 C:\Users\antho\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple\include/libmaple/usart.h:
 
@@ -287,102 +258,52 @@ C:\Users\antho\.platformio\packages\framework-arduinoststm32-maple\STM32F1\syste
 
 C:\Users\antho\.platformio\packages\framework-arduinoststm32-maple\STM32F1\system\libmaple/stm32f1/include/series/usart.h:
 
-c:\users\antho\documents\github\marlin\marlin\src\feature\e_parser.h:
+Marlin\src\feature\../inc/../HAL/./STM32F1/../../feature/e_parser.h:
 
-Marlin\src\feature\../sd/../inc/../pins/pins.h:
+Marlin\src\feature\../inc/../pins/pins.h:
 
-Marlin\src\feature\../sd/../inc/../pins/stm32f1/pins_BTT_SKR_MINI_E3_V2_0.h:
+Marlin\src\feature\../inc/../pins/stm32f1/pins_BTT_SKR_MINI_E3_V2_0.h:
 
-Marlin\src\feature\../sd/../inc/../pins/stm32f1/pins_BTT_SKR_MINI_E3_common.h:
+Marlin\src\feature\../inc/../pins/stm32f1/pins_BTT_SKR_MINI_E3_common.h:
 
-Marlin\src\feature\../sd/../inc/../pins/pins_postprocess.h:
+Marlin\src\feature\../inc/../pins/pins_postprocess.h:
 
-Marlin\src\feature\../sd/../inc/../HAL/STM32F1/timers.h:
+Marlin\src\feature\../inc/../HAL/STM32F1/timers.h:
 
-Marlin\src\feature\../sd/../inc/../HAL/STM32F1/spi_pins.h:
+Marlin\src\feature\../inc/../HAL/STM32F1/spi_pins.h:
 
-Marlin\src\feature\../sd/../inc/Conditionals_post.h:
+Marlin\src\feature\../inc/Conditionals_post.h:
 
-Marlin\src\feature\../sd/../inc/../HAL/STM32F1/inc/Conditionals_post.h:
+Marlin\src\feature\../inc/../HAL/STM32F1/inc/Conditionals_post.h:
 
-Marlin\src\feature\../sd/../inc/../core/types.h:
+Marlin\src\feature\../inc/../core/types.h:
 
-Marlin\src\feature\../sd/../inc/SanityCheck.h:
+Marlin\src\feature\../inc/SanityCheck.h:
 
-Marlin\src\feature\../sd/../inc/../HAL/STM32F1/inc/SanityCheck.h:
+Marlin\src\feature\../inc/../HAL/STM32F1/inc/SanityCheck.h:
 
-Marlin\src\feature\../sd/../inc/../core/language.h:
+Marlin\src\feature\../inc/../core/language.h:
 
-Marlin\src\feature\../sd/../inc/../core/multi_language.h:
+Marlin\src\feature\../inc/../core/multi_language.h:
 
-Marlin\src\feature\../sd/../inc/../core/../lcd/language/language_en.h:
+Marlin\src\feature\../inc/../core/../lcd/language/language_en.h:
 
-Marlin\src\feature\../sd/../inc/../core/utility.h:
+Marlin\src\feature\../inc/../core/utility.h:
 
-Marlin\src\feature\../sd/../inc/../core/../core/millis_t.h:
+Marlin\src\feature\../inc/../core/../core/millis_t.h:
 
-Marlin\src\feature\../sd/../inc/../core/serial.h:
+Marlin\src\feature\../inc/../core/serial.h:
 
-Marlin\src\feature\../sd/SdFile.h:
+Marlin\src\feature\bltouch.h:
 
-Marlin\src\feature\../sd/SdBaseFile.h:
+Marlin\src\feature\../module/servo.h:
 
-Marlin\src\feature\../sd/SdFatConfig.h:
+Marlin\src\feature\../module/../HAL/shared/servo.h:
 
-Marlin\src\feature\../sd/SdVolume.h:
+Marlin\src\feature\../module/../HAL/shared/../STM32F1/Servo.h:
 
-Marlin\src\feature\../sd/Sd2Card.h:
+Marlin\src\feature\../module/probe.h:
 
-Marlin\src\feature\../sd/SdInfo.h:
-
-Marlin\src\feature\../sd/SdFatStructs.h:
-
-Marlin\src\feature\../gcode/gcode.h:
-
-Marlin\src\feature\../gcode/parser.h:
-
-Marlin\src\feature\../lcd/marlinui.h:
-
-Marlin\src\feature\../lcd/../module/motion.h:
-
-Marlin\src\feature\../lcd/buttons.h:
-
-Marlin\src\feature\../lcd/../libs/buzzer.h:
-
-Marlin\src\feature\../lcd/../libs/circularqueue.h:
-
-Marlin\src\feature\../lcd/../module/printcounter.h:
-
-Marlin\src\feature\../lcd/../module/../libs/stopwatch.h:
-
-Marlin\src\feature\../lcd/../module/../libs/duration_t.h:
-
-Marlin\src\feature\../lcd/../MarlinCore.h:
-
-Marlin\src\feature\../lcd/../feature/pause.h:
-
-Marlin\src\feature\../lcd/../feature/../libs/nozzle.h:
-
-Marlin\src\feature\../lcd/lcdprint.h:
-
-Marlin\src\feature\../lcd/fontutils.h:
-
-Marlin\src\feature\../lcd/dogm/u8g_fontutf8.h:
-
-.pio\libdeps\STM32F103RC_btt_512K\U8glib-HAL\src/U8glib.h:
-
-C:\Users\antho\.platformio\packages\framework-arduinoststm32-maple\STM32F1\cores\maple/Print.h:
-
-.pio\libdeps\STM32F103RC_btt_512K\U8glib-HAL\src/clib/u8g.h:
-
-Marlin\src\feature\../gcode/queue.h:
-
-Marlin\src\feature\../module/planner.h:
-
-Marlin\src\feature\../module/temperature.h:
-
-Marlin\src\feature\../module/thermistor/thermistors.h:
-
-Marlin\src\feature\../module/thermistor/thermistor_1.h:
+Marlin\src\feature\../module/motion.h:
 
 Marlin\src\feature\../core/debug_out.h:

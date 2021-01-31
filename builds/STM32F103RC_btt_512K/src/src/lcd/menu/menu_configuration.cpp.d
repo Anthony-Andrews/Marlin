@@ -125,6 +125,8 @@
  Marlin\src\lcd\menu\../../module/temperature.h \
  Marlin\src\lcd\menu\../../module/thermistor/thermistors.h \
  Marlin\src\lcd\menu\../../module/thermistor/thermistor_1.h \
+ Marlin\src\lcd\menu\../../module/probe.h \
+ Marlin\src\lcd\menu\../../feature/bltouch.h \
  Marlin\src\lcd\menu\../../feature/controllerfan.h
 
 Marlin\src\lcd\menu\../../inc/MarlinConfigPre.h:
@@ -382,5 +384,9 @@ Marlin\src\lcd\menu\../../module/temperature.h:
 Marlin\src\lcd\menu\../../module/thermistor/thermistors.h:
 
 Marlin\src\lcd\menu\../../module/thermistor/thermistor_1.h:
+
+Marlin\src\lcd\menu\../../module/probe.h:
+
+Marlin\src\lcd\menu\../../feature/bltouch.h:
 
 Marlin\src\lcd\menu\../../feature/controllerfan.h:

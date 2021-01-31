@@ -94,7 +94,10 @@
  Marlin\src\module\../inc/../core/../lcd/language/language_en.h \
  Marlin\src\module\../inc/../core/utility.h \
  Marlin\src\module\../inc/../core/../core/millis_t.h \
- Marlin\src\module\../inc/../core/serial.h
+ Marlin\src\module\../inc/../core/serial.h Marlin\src\module\servo.h \
+ Marlin\src\module\../HAL/shared/servo.h \
+ Marlin\src\module\../HAL/shared/../STM32F1/Servo.h \
+ Marlin\src\module\../feature/bltouch.h
 
 Marlin\src\module\../inc/MarlinConfig.h:
 
@@ -287,3 +290,11 @@ Marlin\src\module\../inc/../core/utility.h:
 Marlin\src\module\../inc/../core/../core/millis_t.h:
 
 Marlin\src\module\../inc/../core/serial.h:
+
+Marlin\src\module\servo.h:
+
+Marlin\src\module\../HAL/shared/servo.h:
+
+Marlin\src\module\../HAL/shared/../STM32F1/Servo.h:
+
+Marlin\src\module\../feature/bltouch.h:

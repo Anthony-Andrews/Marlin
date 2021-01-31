@@ -146,7 +146,9 @@
  .pio\libdeps\STM32F103RC_btt_512K\U8glib-HAL\src/clib/u8g.h \
  Marlin\src\module\temperature.h \
  Marlin\src\module\thermistor/thermistors.h \
- Marlin\src\module\thermistor/thermistor_1.h
+ Marlin\src\module\thermistor/thermistor_1.h \
+ Marlin\src\module\../HAL/STM32F1/endstop_interrupts.h \
+ Marlin\src\module\../feature/bltouch.h Marlin\src\module\probe.h
 
 Marlin\src\module\endstops.h:
 
@@ -449,3 +451,9 @@ Marlin\src\module\temperature.h:
 Marlin\src\module\thermistor/thermistors.h:
 
 Marlin\src\module\thermistor/thermistor_1.h:
+
+Marlin\src\module\../HAL/STM32F1/endstop_interrupts.h:
+
+Marlin\src\module\../feature/bltouch.h:
+
+Marlin\src\module\probe.h:
